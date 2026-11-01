@@ -1,5 +1,15 @@
 # CUDA and Kernels
 
+<p align="center">
+  <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="NVIDIA CUDA" width="72" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CUDA-C%2B%2B-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA C++" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Google-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
+</p>
+
 This repository documents CUDA programming from first principles.
 
 These notes cover CUDA programming from the basic building blocks of CUDA C++ through GPU execution, memory, kernels, and performance work.
