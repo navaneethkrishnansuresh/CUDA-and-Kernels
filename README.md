@@ -35,6 +35,8 @@ Every released note has an explanation and a small CUDA C++ program that can be 
 
 These are the topics this repository will cover. They are not one-notebook-per-topic sections. One topic can contain several notes, and CUDA Basics will grow beyond the first three notes as needed.
 
+The topic map and the note lists within it may change as the repository develops. Topics and subtopics can be added, updated, split, or merged when that makes the implementation easier to follow.
+
 | Topic | Status |
 | --- | --- |
 | [1. CUDA Basics](topics/01_cuda_basics/) | Available |
