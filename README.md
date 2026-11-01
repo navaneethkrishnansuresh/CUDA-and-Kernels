@@ -40,7 +40,7 @@ This is my personal implementation work around CUDA programming. Take inspiratio
 
 It is not an official CUDA reference, a production kernel library, or a claim of a new optimization method. Some examples are intentionally simple so the underlying behavior is visible before performance work is introduced.
 
-Please skip this for now if you do not have basic C++, programming, and computer-systems knowledge. If you are a larper who only wants to skim keywords, this repo is not for you. It is meant for people who want to read the code, run it, and understand what each note does.
+Please skip this for now if you do not already have a solid grasp of C++ and the basic idea of how GPUs execute work. If you are a larper who only wants to skim keywords, this repo is not for you. It is meant for people who want to read the code, run it, and understand what each note does.
 
 Notes may be added, split, or reordered as the implementation grows. New notes will be added every one to two days when possible.
 
