@@ -31,14 +31,30 @@ CUDA C++ source
 
 Every released note has an explanation and a small CUDA C++ program that can be compiled and run.
 
-## What CUDA Covers Here
+## Topic map
 
-- host and device responsibilities
-- CUDA C++ source, compilation, and kernel launches
-- threads, blocks, grids, and global indexing
-- GPU memory allocation and CPU to GPU data movement
-- synchronization and kernel correctness
-- building kernels and understanding their performance behavior
+These are the topics this repository will cover. They are not one-notebook-per-topic sections. One topic can contain several notes, and CUDA Basics will grow beyond the first three notes as needed.
+
+1. CUDA Basics
+2. GPU Architecture and Execution
+3. CUDA Memory Spaces and Data Movement
+4. Global Memory, Coalescing, and Caches
+5. Shared Memory and Tiling
+6. Warps, Divergence, Registers, and Occupancy
+7. Synchronization, Atomics, and Memory Ordering
+8. Parallel Algorithm Patterns
+9. CUDA Debugging, Correctness, and Testing
+10. GEMM: Naive to Optimized
+11. Tensor Cores, Precision, and Quantization
+12. Streams, Async Pipelines, and CUDA Graphs
+13. Nsight and Performance Engineering
+14. CUDA Compiler, PTX, and SASS
+15. Modern NVIDIA Architecture Features
+16. Transformer Kernels
+17. Attention and LLM GPU Performance
+18. CUDA Inside Inference Runtimes: Bridge to the Inference Project
+19. Triton, CUTLASS/CuTe, and PyTorch Extensions
+20. Multi-GPU, Interconnects, and Collectives
 
 ## Later kernel work
 
@@ -54,7 +70,9 @@ Please skip this for now if you do not already have a solid grasp of C++ and the
 
 Notes may be added, split, or reordered as the implementation grows. New notes will be added every one to two days when possible.
 
-## Notes
+## CUDA Basics notes
+
+The notes below belong to Topic 1, CUDA Basics. More notes may be added here before the repository moves to GPU Architecture and Execution.
 
 | Note | Topic | Status |
 | --- | --- | --- |
