@@ -30,6 +30,10 @@ Every released note has an explanation and a small CUDA C++ program that can be 
 - synchronization and kernel correctness
 - building kernels and understanding their performance behavior
 
+## Later kernel work
+
+Later notes will move from basic CUDA programs into CUDA implementations of model operations: reductions, matrix operations, RMSNorm, softmax, sampling, and attention building blocks. They will be added once the lower-level CUDA pieces needed to understand them are in place.
+
 ## Disclaimer
 
 This is my personal implementation work around CUDA programming. Take inspiration from it, use it to understand a few things, and adapt ideas for your own experiments.
