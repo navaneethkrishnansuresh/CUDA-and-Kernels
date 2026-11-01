@@ -19,8 +19,6 @@ CUDA C++ source
 → performance work
 ```
 
-The focus is not on hiding CUDA behind a framework. It is on the lower-level programming model: execution hierarchy, memory movement, synchronization, indexing, and the kernel work that GPU systems depend on.
-
 Everything is implementation-first. Each note pairs a direct explanation with a small CUDA C++ program that can be compiled and run.
 
 ## Disclaimer
@@ -40,6 +38,8 @@ Notes may be added, split, or reordered as the implementation grows. New notes w
 | 01 | [First CUDA Program](01_first_cuda_program/01_first_cuda_program.ipynb) | Available |
 | 02 | [Threads, Blocks, and Grids](02_threads_blocks_grids/02_threads_blocks_grids.ipynb) | Available |
 | 03 | Vector Addition | Not available yet |
+
+More notes coming soon.
 
 ## Running the notebooks
 
