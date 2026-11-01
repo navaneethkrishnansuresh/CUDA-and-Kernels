@@ -35,26 +35,28 @@ Every released note has an explanation and a small CUDA C++ program that can be 
 
 These are the topics this repository will cover. They are not one-notebook-per-topic sections. One topic can contain several notes, and CUDA Basics will grow beyond the first three notes as needed.
 
-1. CUDA Basics
-2. GPU Architecture and Execution
-3. CUDA Memory Spaces and Data Movement
-4. Global Memory, Coalescing, and Caches
-5. Shared Memory and Tiling
-6. Warps, Divergence, Registers, and Occupancy
-7. Synchronization, Atomics, and Memory Ordering
-8. Parallel Algorithm Patterns
-9. CUDA Debugging, Correctness, and Testing
-10. GEMM: Naive to Optimized
-11. Tensor Cores, Precision, and Quantization
-12. Streams, Async Pipelines, and CUDA Graphs
-13. Nsight and Performance Engineering
-14. CUDA Compiler, PTX, and SASS
-15. Modern NVIDIA Architecture Features
-16. Transformer Kernels
-17. Attention and LLM GPU Performance
-18. CUDA Inside Inference Runtimes: Bridge to the Inference Project
-19. Triton, CUTLASS/CuTe, and PyTorch Extensions
-20. Multi-GPU, Interconnects, and Collectives
+| Topic | Status |
+| --- | --- |
+| [1. CUDA Basics](topics/01_cuda_basics/) | Available |
+| [2. GPU Architecture and Execution](topics/02_gpu_architecture_execution/) | Not available yet |
+| [3. CUDA Memory Spaces and Data Movement](topics/03_cuda_memory_spaces_data_movement/) | Not available yet |
+| [4. Global Memory, Coalescing, and Caches](topics/04_global_memory_coalescing_caches/) | Not available yet |
+| [5. Shared Memory and Tiling](topics/05_shared_memory_tiling/) | Not available yet |
+| [6. Warps, Divergence, Registers, and Occupancy](topics/06_warps_divergence_registers_occupancy/) | Not available yet |
+| [7. Synchronization, Atomics, and Memory Ordering](topics/07_synchronization_atomics_memory_ordering/) | Not available yet |
+| [8. Parallel Algorithm Patterns](topics/08_parallel_algorithm_patterns/) | Not available yet |
+| [9. CUDA Debugging, Correctness, and Testing](topics/09_cuda_debugging_correctness_testing/) | Not available yet |
+| [10. GEMM: Naive to Optimized](topics/10_gemm_naive_to_optimized/) | Not available yet |
+| [11. Tensor Cores, Precision, and Quantization](topics/11_tensor_cores_precision_quantization/) | Not available yet |
+| [12. Streams, Async Pipelines, and CUDA Graphs](topics/12_streams_async_pipelines_cuda_graphs/) | Not available yet |
+| [13. Nsight and Performance Engineering](topics/13_nsight_performance_engineering/) | Not available yet |
+| [14. CUDA Compiler, PTX, and SASS](topics/14_cuda_compiler_ptx_sass/) | Not available yet |
+| [15. Modern NVIDIA Architecture Features](topics/15_modern_nvidia_architecture_features/) | Not available yet |
+| [16. Transformer Kernels](topics/16_transformer_kernels/) | Not available yet |
+| [17. Attention and LLM GPU Performance](topics/17_attention_llm_gpu_performance/) | Not available yet |
+| [18. CUDA Inside Inference Runtimes](topics/18_cuda_inside_inference_runtimes/) | Not available yet |
+| [19. Triton, CUTLASS/CuTe, and PyTorch Extensions](topics/19_triton_cutlass_cute_pytorch_extensions/) | Not available yet |
+| [20. Multi-GPU, Interconnects, and Collectives](topics/20_multi_gpu_interconnects_collectives/) | Not available yet |
 
 ## Later kernel work
 
@@ -69,18 +71,6 @@ It is not an official CUDA reference, a production kernel library, or a claim of
 Please skip this for now if you do not already have a solid grasp of C++ and the basic idea of how GPUs execute work. If you are a larper who only wants to skim keywords, this repo is not for you. It is meant for people who want to read the code, run it, and understand what each note does.
 
 Notes may be added, split, or reordered as the implementation grows. New notes will be added every one to two days when possible.
-
-## CUDA Basics notes
-
-The notes below belong to Topic 1, CUDA Basics. More notes may be added here before the repository moves to GPU Architecture and Execution.
-
-| Note | Topic | Status |
-| --- | --- | --- |
-| 01 | [First CUDA Program](01_first_cuda_program/) | Available |
-| 02 | [Threads, Blocks, and Grids](02_threads_blocks_grids/) | Available |
-| 03 | Vector Addition | Not available yet |
-
-More notes coming soon.
 
 ## Running the notebooks
 
